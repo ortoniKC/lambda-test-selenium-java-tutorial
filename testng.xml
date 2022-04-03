@@ -3,7 +3,8 @@
 <suite name="Suite">
   <test thread-count="5" name="Test">
     <classes>
-      <class name="lambdaDemo.HandleDropDown"/>
+      <class name="windowAndFrames.HandlingFrames"/>
+      <class name="windowAndFrames.WindowHandling"/>
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->
