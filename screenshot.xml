@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite" parallel="tests">
+	<test thread-count="5" name="Test in Chrome">
+		<parameter name="browsername" value="Chrome"></parameter>
+		<parameter name="testName" value="Test in Chrome"></parameter>
+		<classes>
+			<class name="screenshots.ScreenShots" />
+		</classes>
+	</test> <!-- Test -->
+	<test thread-count="5" name="Test in Firefox">
+		<parameter name="browsername" value="Firefox"></parameter>
+		<parameter name="testName" value="Test in Firefox"></parameter>
+		<classes>
+			<class name="screenshots.ScreenShots" />
+		</classes>
+	</test> <!-- Test -->
+</suite> <!-- Suite -->
