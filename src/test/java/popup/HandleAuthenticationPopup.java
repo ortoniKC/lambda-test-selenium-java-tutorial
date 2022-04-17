@@ -27,7 +27,7 @@ public class HandleAuthenticationPopup {
 		capabilities.setCapability("browserName", browser);
 		capabilities.setCapability("version","98.0");
 		try {
-			driver = new RemoteWebDriver(new URL("https://koushik350:GhnFCYUK4IWo9j4f38tr2RoS3rwmJxaR0AozKsHvRjigNBDzlJ@hub.lambdatest.com/wd/hub"),
+			driver = new RemoteWebDriver(new URL("https://userName:accessKey@hub.lambdatest.com/wd/hub"),
 					capabilities);
 		} catch (MalformedURLException e) {
 			// TODO Auto-generated catch block

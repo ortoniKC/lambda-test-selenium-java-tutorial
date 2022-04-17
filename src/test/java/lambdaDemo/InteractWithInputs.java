@@ -27,7 +27,7 @@ public class InteractWithInputs {
 		capabilities.setCapability("network",true);
 		capabilities.setCapability("visual",true);
 		try {
-			driver = new RemoteWebDriver(new URL("https://koushik350:GhnFCYUK4IWo9j4f38tr2RoS3rwmJxaR0AozKsHvRjigNBDzlJ@hub.lambdatest.com/wd/hub"), capabilities);
+			driver = new RemoteWebDriver(new URL("https://userName:accessKey@hub.lambdatest.com/wd/hub"), capabilities);
 		} catch (MalformedURLException e) {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
