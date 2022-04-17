@@ -1,6 +1,6 @@
 # LambdaTest - Selenium Java Tutorial
 
-## [Youtube Playlist](https://koushik350:GhnFCYUK4IWo9j4f38tr2RoS3rwmJxaR0AozKsHvRjigNBDzlJ@hub.lambdatest.com/wd/hub)
+## [Youtube Playlist](https://youtube.com/playlist?list=PLZMWkkQEwOPmrvNqVTaMnd2j07I6W2ORC)
 
 ## Videos
 
